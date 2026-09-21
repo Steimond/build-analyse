@@ -1,0 +1,55 @@
+# Unity-generated caches and local settings
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Build and distribution output
+/[Bb]uild/
+/[Bb]uilds/
+/[Aa]rtifacts/
+/[Dd]ist/
+*.unitypackage
+
+# Generated IDE projects and local IDE state
+/.vs/
+/.idea/
+/.vscode/
+/.gradle/
+/*.csproj
+/*.sln
+/*.slnx
+/*.suo
+/*.user
+/*.userprefs
+/*.pidb
+/*.booproj
+/*.svd
+/*.pdb
+/*.mdb
+/*.opendb
+/*.VC.db
+/ExportedObj/
+/consulo/
+
+# Unity crash reports and generated asset folders (including their meta files)
+/sysinfo.txt
+/mono_crash.*
+/[Aa]ssets/[Aa]sset[Ss]tore[Tt]ools/
+/[Aa]ssets/[Aa]sset[Ss]tore[Tt]ools.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Operating system clutter
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Keep Assets and its .meta files, Packages (including packages-lock.json),
+# and ProjectSettings under version control. Do not globally ignore DLLs:
+# an editor tool may need to ship plugin assemblies.
