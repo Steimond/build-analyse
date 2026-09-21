@@ -15,6 +15,7 @@
 *.unitypackage
 
 # Generated IDE projects and local IDE state
+/.codex/config.toml
 /.vs/
 /.idea/
 /.vscode/
