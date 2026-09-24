@@ -1,0 +1,23 @@
+{
+  "name": "com.builddiff.tool",
+  "version": "0.1.0",
+  "displayName": "Build Diff Tool",
+  "description": "Compare APK, AAB, and IPA archives to understand which files changed build size.",
+  "unity": "2022.3",
+  "keywords": [
+    "build",
+    "android",
+    "ios",
+    "apk",
+    "aab",
+    "ipa",
+    "analysis"
+  ],
+  "author": {
+    "name": "Build Diff Tool"
+  },
+  "type": "tool",
+  "testables": [
+    "com.builddiff.tool"
+  ]
+}
