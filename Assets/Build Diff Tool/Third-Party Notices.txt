@@ -1,0 +1,5 @@
+Build Diff Tool 1.0.0
+
+This package does not redistribute third-party software, fonts, images, audio, or other third-party content.
+
+The package uses Unity Editor APIs and the .NET libraries supplied with the Unity Editor.

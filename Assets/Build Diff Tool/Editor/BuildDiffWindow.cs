@@ -43,7 +43,9 @@ namespace BuildDiffTool.Editor
         {
             EditorGUILayout.Space(8f);
             EditorGUILayout.LabelField("Build Diff Tool", EditorStyles.boldLabel);
-            EditorGUILayout.LabelField("Compare APK, AAB, or IPA archives by the files they contain.", EditorStyles.miniLabel);
+            EditorGUILayout.LabelField(
+                $"Version {BuildDiffToolInfo.Version} · Compare APK, AAB, or IPA archives by the files they contain.",
+                EditorStyles.miniLabel);
             EditorGUILayout.Space(8f);
 
             DrawBuildPicker("Baseline build", ref baselinePath);
