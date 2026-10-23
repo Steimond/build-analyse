@@ -1,0 +1,1 @@
+No third-party code or assets are included. Uses Unity Editor APIs and the standard .NET libraries.
