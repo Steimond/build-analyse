@@ -1,0 +1,1 @@
+{"name":"Diagnostics.Editor.Tests","references":["Diagnostics.TestFixtures","AssetDependencyExplorer.Editor","DuplicateAssetFinder.Editor","TextureBudgetAuditor.Editor","PrefabMissingScriptScanner.Editor"],"includePlatforms":["Editor"],"optionalUnityReferences":["TestAssemblies"]}

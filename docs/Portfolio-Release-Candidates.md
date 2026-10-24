@@ -1,5 +1,7 @@
 # Portfolio release candidates — 2026-10-23
 
+The next four-product batch is documented in [Diagnostics Batch Review](Diagnostics-Batch-Review.md). The portfolio now contains seven standalone tools; the original three-product validation below remains as historical evidence for the first slice.
+
 ## Selected next slice
 
 Two standalone tools after Build Diff Tool: **Build Size Analyzer** (free) and **Release Preflight** ($7.99). User approved these prices on 2026-10-23; both are saved in Publisher Portal. Build Diff Tool remains $7.99.

@@ -16,7 +16,7 @@ namespace VectraCode.Release
             var providerType = RequiredType("AssetStore.Validator.UnityPackageTestProvider");
             var validatorType = RequiredType("AssetStore.Validator.UnityPackageValidator");
             Directory.CreateDirectory("Artifacts");
-            foreach (var product in new[] { "Build Diff Tool", "Build Size Analyzer", "Release Preflight" })
+            foreach (var product in new[] { "Build Diff Tool", "Build Size Analyzer", "Release Preflight", "Asset Dependency Explorer", "Duplicate Asset Finder", "Texture Budget Auditor", "Prefab Missing Script Scanner" })
             {
                 var settings = Activator.CreateInstance(settingsType);
                 settingsType.GetField("ValidationPaths").SetValue(settings, new List<string> { "Assets/" + product });
