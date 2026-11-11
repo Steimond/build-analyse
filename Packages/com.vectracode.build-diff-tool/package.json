@@ -1,0 +1,15 @@
+{
+  "name": "com.vectracode.build-diff-tool",
+  "version": "1.0.0",
+  "displayName": "Build Diff Tool",
+  "description": "Standalone offline Unity Editor tool: Build Diff Tool.",
+  "unity": "6000.6",
+  "author": {
+    "name": "VectraCode"
+  },
+  "keywords": [
+    "editor",
+    "diagnostics",
+    "tools"
+  ]
+}

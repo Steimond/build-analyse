@@ -1,0 +1,15 @@
+{
+  "name": "com.vectracode.duplicate-asset-finder",
+  "version": "1.0.0",
+  "displayName": "Duplicate Asset Finder",
+  "description": "Standalone offline Unity Editor tool: Duplicate Asset Finder.",
+  "unity": "6000.6",
+  "author": {
+    "name": "VectraCode"
+  },
+  "keywords": [
+    "editor",
+    "diagnostics",
+    "tools"
+  ]
+}

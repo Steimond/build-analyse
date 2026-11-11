@@ -1,0 +1,15 @@
+{
+  "name": "com.vectracode.texture-budget-auditor",
+  "version": "1.0.0",
+  "displayName": "Texture Budget Auditor",
+  "description": "Standalone offline Unity Editor tool: Texture Budget Auditor.",
+  "unity": "6000.6",
+  "author": {
+    "name": "VectraCode"
+  },
+  "keywords": [
+    "editor",
+    "diagnostics",
+    "tools"
+  ]
+}

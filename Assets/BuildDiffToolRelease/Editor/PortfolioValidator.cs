@@ -19,7 +19,7 @@ namespace VectraCode.Release
             foreach (var product in new[] { "Build Diff Tool", "Build Size Analyzer", "Release Preflight", "Asset Dependency Explorer", "Duplicate Asset Finder", "Texture Budget Auditor", "Prefab Missing Script Scanner" })
             {
                 var settings = Activator.CreateInstance(settingsType);
-                settingsType.GetField("ValidationPaths").SetValue(settings, new List<string> { "Assets/" + product });
+                settingsType.GetField("ValidationPaths").SetValue(settings, new List<string> { "Packages/com.vectracode." + product.ToLowerInvariant().Replace(' ', '-') });
                 settingsType.GetField("Category").SetValue(settings, "Tools/Utilities");
                 var validator = Activator.CreateInstance(validatorType, new[] { Activator.CreateInstance(providerType) });
                 var result = validatorType.GetMethod("Validate").Invoke(validator, new[] { settings });

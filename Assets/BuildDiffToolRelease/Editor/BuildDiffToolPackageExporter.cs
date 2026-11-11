@@ -6,7 +6,7 @@ namespace BuildDiffTool.Release
 {
     public static class BuildDiffToolPackageExporter
     {
-        private const string ProductRoot = "Assets/Build Diff Tool";
+        private const string ProductRoot = "Packages/com.vectracode.build-diff-tool";
         private const string DefaultFileName = "Build-Diff-Tool-1.0.0.unitypackage";
 
         [MenuItem("Tools/Build Diff Tool/Export Asset Store Package...")]

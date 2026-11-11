@@ -299,6 +299,48 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.vectracode.asset-dependency-explorer": {
+      "version": "file:com.vectracode.asset-dependency-explorer",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.vectracode.build-diff-tool": {
+      "version": "file:com.vectracode.build-diff-tool",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.vectracode.build-size-analyzer": {
+      "version": "file:com.vectracode.build-size-analyzer",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.vectracode.duplicate-asset-finder": {
+      "version": "file:com.vectracode.duplicate-asset-finder",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.vectracode.prefab-missing-script-scanner": {
+      "version": "file:com.vectracode.prefab-missing-script-scanner",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.vectracode.release-preflight": {
+      "version": "file:com.vectracode.release-preflight",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.vectracode.texture-budget-auditor": {
+      "version": "file:com.vectracode.texture-budget-auditor",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
       "depth": 0,

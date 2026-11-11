@@ -14,6 +14,6 @@ Standalone, offline Unity Editor tools. Each product owns its Editor assembly, d
 
 Open each tool through `Tools > <Product> > Open`. Build Diff uses its existing Tools menu.
 
-Development-only release helpers live under `Assets/BuildDiffToolRelease`; test fixtures live under `Assets/Tests`. Neither folder is exported with standalone products. `Tools > Build Diagnostics > Export Standalone Packages` exports one `.unitypackage` per product into `Artifacts`.
+Each product now lives in an embedded UPM package under `Packages/com.vectracode.*`. Run `./tools/Export-Upm.ps1` to build seven `.tgz` archives. Development helpers and tests remain under `Assets` and are excluded. See [UPM publishing and screenshot capture](docs/UPM-Publishing.md).
 
 See [release candidates](docs/Portfolio-Release-Candidates.md) and [the four-tool review handoff](docs/Diagnostics-Batch-Review.md) for validation evidence and Publisher Portal drafts. Exported packages and saved drafts do not mean a product has been uploaded, submitted, or approved.

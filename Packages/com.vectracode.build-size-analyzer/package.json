@@ -1,0 +1,15 @@
+{
+  "name": "com.vectracode.build-size-analyzer",
+  "version": "1.0.0",
+  "displayName": "Build Size Analyzer",
+  "description": "Standalone offline Unity Editor tool: Build Size Analyzer.",
+  "unity": "6000.6",
+  "author": {
+    "name": "VectraCode"
+  },
+  "keywords": [
+    "editor",
+    "diagnostics",
+    "tools"
+  ]
+}

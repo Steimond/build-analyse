@@ -1,0 +1,15 @@
+{
+  "name": "com.vectracode.asset-dependency-explorer",
+  "version": "1.0.0",
+  "displayName": "Asset Dependency Explorer",
+  "description": "Standalone offline Unity Editor tool: Asset Dependency Explorer.",
+  "unity": "6000.6",
+  "author": {
+    "name": "VectraCode"
+  },
+  "keywords": [
+    "editor",
+    "diagnostics",
+    "tools"
+  ]
+}

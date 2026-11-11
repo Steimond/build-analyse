@@ -19,7 +19,7 @@ namespace VectraCode.Release
             foreach (var product in new[] { "Build Diff Tool", "Build Size Analyzer", "Release Preflight", "Asset Dependency Explorer", "Duplicate Asset Finder", "Texture Budget Auditor", "Prefab Missing Script Scanner" })
             {
                 var destination = Path.GetFullPath(Path.Combine("Artifacts", product.Replace(' ', '-') + "-1.0.0.unitypackage"));
-                AssetDatabase.ExportPackage("Assets/" + product, destination, ExportPackageOptions.Recurse);
+                AssetDatabase.ExportPackage("Packages/com.vectracode." + product.ToLowerInvariant().Replace(' ', '-'), destination, ExportPackageOptions.Recurse);
                 Debug.Log("Exported standalone package: " + destination);
             }
         }

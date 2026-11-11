@@ -46,6 +46,8 @@
 /[Aa]ssets/Plugins/Editor/JetBrains*
 
 # Operating system clutter
+/Assets/VectraCodeScreenshotSamples/
+/Assets/VectraCodeScreenshotSamples.meta
 .DS_Store
 ._*
 Thumbs.db
